@@ -1,16 +1,101 @@
 <html lang="en">
 
 <head>
+  <!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 
-<title>Hello</title>
+  <!--Jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+  <!--Bootstrap-->
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+  <!--Social Media logos-->
+  <link rel="stylesheet prefetch" href="http:////netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 
+  <!--Style sheets-->
+  <link rel='stylesheet' href='css/index.css' />
+  <link rel='stylesheet' href='css/social.css' />
 
+  <!--Title-->
+  <title>Hello</title>
 </head>
-
 <body>
 
-<h1>Hello</h1>
+<!--Nav bar-->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Nicky van Hulst</a>
+    </div>
+    <div id="" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Projects</a></li>
+        <li><a href="#about" id="interests">Interests</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!--Container for elements-->
+<div class="container">
+
+  <!--Title row-->
+  <div class="row" id="title-row">
+    <div class="col-lg-12 text-center">
+      <h1 id="title"><b>Nicky van Hulst</b></h1>
+      <h2>Software Engineer</h2>
+    </div>
+  </div>
+
+  <!--Projects row-->
+  <div class="row">
+    <div class="col-lg-4 text-center">
+      <h1 id="h1" class="subtitle fade-elem" >Train Simulator</h1>
+      <h2 class="fade-elem">Honours Project</h2>
+    </div>
+    <div class="col-lg-4 text-center">
+      <h1 id="h2" class="subtitle fade-elem" >Facebook Analysis</h1>
+      <h2 class="fade-elem">Data processing</h2>
+    </div>
+    <div class="col-lg-4 text-center">
+      <h1 id="h3" class="subtitle fade-elem" >RTS Game</h1>
+      <h2 class="fade-elem">Node, Pixi, handlebars</h2>
+    </div>
+  </div>
+
+  <!--Image row-->
+  <div class="row project-images">
+    <div class="col-lg-4 text-center">
+       <a href="https://github.com/vanhunick/Train-Simulator" target="_blank"><img src="images/sim.jpg" class="img-responsive img-center fade-elem" ></a>
+    </div>
+    <div class="col-lg-4 text-center">
+        <a  href="https://github.com/vanhunick/Facebook-Analysis" target="_blank"><img src="images/facebook_sketch.jpg" class="img-responsive img-center fade-elem"></a>
+    </div>
+    <div class="col-lg-4 text-center">
+       <a href="https://github.com/vanhunick/RTS" target="_blank"><img src="images/background_sketch.jpg" class="img-responsive img-center fade-elem"></img></a>
+    </div>
+</div>
+
+<!--Social media icons and links-->
+<div class="row text-center" id="social">
+  <ul class="social-icons icon-circle icon-zoom list-unstyled list-inline">
+    <li> <a href="https://www.facebook.com/nicky.vanhulst" target="_blank"><i class="fa fa-facebook"></i></a></li>
+    <li> <a href="https://github.com/vanhunick" target="_blank"><i class="fa fa-github"></i></a></li>
+    <li> <a href="https://www.linkedin.com/in/nicky-van-hulst-95862011a" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+  </ul>
+</div>
+
+</div>
 
 </body>
+
+<script src="js/fade.js"></script>
