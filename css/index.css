@@ -1,7 +1,3 @@
-body {
-
-}
-
 .background-image {
     background-image: url("../images/background.jpg");
     background-size: 100%, 100%;
@@ -56,6 +52,12 @@ body {
     margin-left: 0;
 }
 
+.contact-title {
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding: 0;
+}
 
 
 .img-center {
@@ -71,11 +73,14 @@ body {
 }
 
 #email{
-  color:#D96842;
+  margin-top: 0;
+  margin-bottom: 2%;
+  color: orangered;
 }
 
 #phone{
-  color:#8AA385;
+  margin-top: 0;
+  color: orangered;
 }
 
     /*transform: rotate(7deg);*/

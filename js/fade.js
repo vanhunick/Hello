@@ -1,6 +1,8 @@
+var state = "PROJECTS";
+
 $("#interests").click(function(){
   $(".fade-elem").fadeOut(function() {
-    $('#contact-row').hide();
+    $('#contact-row').fadeOut();
 
     $('#h-1').text("Muay Thai");
     $('#h-2').text("Running");
@@ -11,13 +13,13 @@ $("#interests").click(function(){
     $('#s-3').text("Liesure");
 
     $('#i-1').html(
-      '<a href="https://github.com/vanhunick/Train-Simulator" target="_blank"><img src="images/sim.jpg" class="img-responsive img-center fade-elem" ></a>'
+      '<img src="images/mt_draw.jpg" class="img-responsive img-center fade-elem" >'
     );
     $('#i-2').html(
-      '<a href="https://github.com/vanhunick/Train-Simulator" target="_blank"><img src="images/sim.jpg" class="img-responsive img-center fade-elem" ></a>'
+      '<img src="images/background_sketch.jpg" class="img-responsive img-center fade-elem">'
     );
     $('#i-3').html(
-      '<a href="https://github.com/vanhunick/Train-Simulator" target="_blank"><img src="images/sim.jpg" class="img-responsive img-center fade-elem" ></a>'
+      '<img src="images/strat.jpg" class="img-responsive img-center fade-elem" >'
     );
 
     // Highlight the currently selected link
@@ -30,7 +32,7 @@ $("#interests").click(function(){
 
 $("#projects").click(function(){
   $(".fade-elem").fadeOut(function() {
-    $('#contact-row').hide();
+    $('#contact-row').fadeOut();
 
     $('#h-1').text("Train Simulator");
     $('#h-2').text("Facebook Analysis");
@@ -41,13 +43,13 @@ $("#projects").click(function(){
     $('#s-3').text("Node, Pixi, handlebars");
 
     $('#i-1').html(
-      '<a href="https://github.com/vanhunick/Train-Simulator" target="_blank"><img src="images/sim.jpg" class="img-responsive img-center fade-elem" ></a>'
+      '<a href="https://github.com/vanhunick/Train-Simulator" target="_blank"><img src="images/train_draw.jpg" class="img-responsive img-center fade-elem" ></a>'
     );
     $('#i-2').html(
-      '<a href="https://github.com/vanhunick/Train-Simulator" target="_blank"><img src="images/sim.jpg" class="img-responsive img-center fade-elem" ></a>'
+      '<a href="https://github.com/vanhunick/Facebook-Analysis" target="_blank"><img src="images/facebook_sketch.jpg" class="img-responsive img-center fade-elem" ></a>'
     );
     $('#i-3').html(
-      '<a href="https://github.com/vanhunick/Train-Simulator" target="_blank"><img src="images/sim.jpg" class="img-responsive img-center fade-elem" ></a>'
+      '<a href="https://github.com/vanhunick/RTS" target="_blank"><img src="images/background_sketch.jpg" class="img-responsive img-center fade-elem" ></a>'
     );
 
     // Highlight the currently selected link
