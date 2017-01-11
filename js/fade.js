@@ -72,6 +72,6 @@ $("#contact").click(function(){
   $('#contact-row').fadeIn();
 });
 
-$( document ).ready(function() {
+$(document).ready(function() {
     $('#contact-row').hide();
 });
