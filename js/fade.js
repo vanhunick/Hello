@@ -16,10 +16,10 @@ $("#interests").click(function(){
       '<img src="images/mt_draw.jpg" class="img-responsive img-center fade-elem" >'
     );
     $('#i-2').html(
-      '<img src="images/run.jpg" class="img-responsive img-center fade-elem">'
+      '<img src="images/run.JPG" class="img-responsive img-center fade-elem">'
     );
     $('#i-3').html(
-      '<img src="images/aoe.jpg" class="img-responsive img-center fade-elem" >'
+      '<img src="images/aoe.JPG" class="img-responsive img-center fade-elem" >'
     );
 
     // Highlight the currently selected link
@@ -43,13 +43,13 @@ $("#projects").click(function(){
     $('#s-3').text("Node, Jquery, D3, JavaScript");
 
     $('#i-1').html(
-      '<a href="https://www.youtube.com/watch?v=MTmbz7nCLTE" target="_blank"><img src="images/trainYT.jpg" class="img-responsive img-center fade-elem" ></a>'
+      '<a href="https://www.youtube.com/watch?v=MTmbz7nCLTE" target="_blank"><img src="images/trainYT.JPG" class="img-responsive img-center fade-elem" ></a>'
     );
     $('#i-2').html(
-      '<a href="https://vanhunick.github.io/Facebook-Analysis/" target="_blank"><img src="images/face.jpg" class="img-responsive img-center fade-elem" ></a>'
+      '<a href="https://vanhunick.github.io/Facebook-Analysis/" target="_blank"><img src="images/face.JPG" class="img-responsive img-center fade-elem" ></a>'
     );
     $('#i-3').html(
-      '<a href="https://github.com/vanhunick/energy-visualisation" target="_blank"><img src="images/energy2.jpg" class="img-responsive img-center fade-elem" ></a>'
+      '<a href="https://github.com/vanhunick/energy-visualisation" target="_blank"><img src="images/energy2.JPG" class="img-responsive img-center fade-elem" ></a>'
     );
 
     // Highlight the currently selected link
