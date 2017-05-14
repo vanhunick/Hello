@@ -1,6 +1,7 @@
 var state = "PROJECTS";
 
 $("#interests").click(function(){
+  $('#skills-row').hide();
   $(".fade-elem").fadeOut(function() {
     $('#contact-row').fadeOut();
 
@@ -58,9 +59,11 @@ $("#projects").click(function(){
     $("#interests-link").removeClass('active');
 
   }).fadeIn();
+  $('#skills-row').show();
 });
 
 $("#contact").click(function(){
+  $('#skills-row').hide();
   $(".fade-elem").fadeOut(function() {
 
     // Highlight the currently selected link
@@ -76,4 +79,12 @@ $("#contact").click(function(){
 
 $(document).ready(function() {
     $('#contact-row').hide();
+
+    $(function() {
+  $('progress').each(function() {
+    var max = $(this).val();
+    $(this).val(0).animate({ value: max }, { duration: 2000, easing: 'easeOutCirc' });
+      });
 });
+});
+
